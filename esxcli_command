@@ -1,5 +1,0 @@
-vim-cmd vmsvc/getallvms 
-
-vim-cmd vmsvc/power.getstate <Vmid>
-
-vim-cmd vmsvc/power.on <vmid>
