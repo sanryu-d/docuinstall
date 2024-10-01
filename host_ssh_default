@@ -1,0 +1,56 @@
+Host srv1
+Hostname srv1.gesuvive.it
+User sanryu
+Port 65100
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host nas01
+Hostname nas01.nidolimpronta.it
+User sanryu
+Port 65100
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host awx
+Hostname 93.41.184.239
+Port 65121
+User sanryu
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host gitlab
+Hostname 93.41.184.239
+Port 65100
+User sanryu
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host vpn-office
+Hostname 93.41.184.239
+Port 65122
+User sanryu
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host smtp
+Hostname 51.210.255.111
+Port 65100
+User sanryu
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host pro-office
+Hostname 93.41.184.239
+Port 65125
+User sanryu
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host zabbix
+Hostname 93.41.184.239
+Port 65124
+User sanryu
+ServerAliveInterval 30
+ServerAliveCountMax 120
+

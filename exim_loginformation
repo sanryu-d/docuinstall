@@ -1,0 +1,13 @@
+<=     message arrival
+(=     message fakereject
+=>     normal message delivery
+->     additional address in same delivery
+>>     cutthrough message delivery
+*>     delivery suppressed by -N
+**     delivery failed; address bounced
+==     delivery deferred; temporary problem
+
+
+https://www.phpmyfaq.de/docs/3.1#1.1
+
+https://www.exim.org/exim-html-current/doc/html/spec_html/ch-log_files.html
